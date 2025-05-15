@@ -268,7 +268,7 @@ flowchart TD
     - En caso de fallo, ejecuta un rollback para cancelar el pedido.
     - El rollback se puede implementar como llamada a un microservicio compensatorio que revierta acciones previas.
 
-![Mi Imagen](flujo.svg)
+![Flujo BPMN](flujo.png)
 
 - El monitoreo se integra con AWS CloudWatch para seguimiento y alertas de fallos o cuellos de botella.
 
